@@ -1,0 +1,15 @@
+{
+  "name": "jsDir2Coffee",
+  "version": "0.0.1",
+  "description": "Converts NodeJs projects to Coffee",
+  "main": "lib/jsDir2Coffee.coffee",
+  "author": "Raghavendra Karunanidhi <raghu.k@openly.co>",
+  "dependencies": {
+    "fs-extra": "^0.9.1",
+    "js2coffee": "^0.3.0",
+    "minimist": "^0.1.0"
+  },
+  "bin": {
+    "js2coffee": "./bin/js2coffee"
+  }
+}
